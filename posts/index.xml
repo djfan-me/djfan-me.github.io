@@ -31,6 +31,17 @@
 		</item>
 		
 		<item>
+			<title>Test2</title>
+			<link>https://djfan-me.github.io/posts/test2/</link>
+			<pubDate>Sat, 11 Jul 2020 13:42:30 -0400</pubDate>
+			
+			<guid>https://djfan-me.github.io/posts/test2/</guid>
+			<description>ssasdasd</description>
+			<content type="html"><![CDATA[<p>ssasdasd</p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>Test</title>
 			<link>https://djfan-me.github.io/posts/test/</link>
 			<pubDate>Sun, 05 Jul 2020 17:19:01 -0400</pubDate>
