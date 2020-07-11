@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archiv 檔案</title>
-    <link>https://djfan-me.github.io/</link>
+    <link>https://djfan.me/</link>
     <description>Recent content on Archiv 檔案</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sat, 11 Jul 2020 14:26:11 -0400</lastBuildDate>
     
-	<atom:link href="https://djfan-me.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://djfan.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test4</title>
-      <link>https://djfan-me.github.io/posts/test4/</link>
+      <link>https://djfan.me/posts/test4/</link>
       <pubDate>Sat, 11 Jul 2020 14:26:11 -0400</pubDate>
       
-      <guid>https://djfan-me.github.io/posts/test4/</guid>
+      <guid>https://djfan.me/posts/test4/</guid>
       <description>sssss</description>
     </item>
     
     <item>
       <title>Test3</title>
-      <link>https://djfan-me.github.io/posts/test3/</link>
+      <link>https://djfan.me/posts/test3/</link>
       <pubDate>Sat, 11 Jul 2020 13:49:05 -0400</pubDate>
       
-      <guid>https://djfan-me.github.io/posts/test3/</guid>
+      <guid>https://djfan.me/posts/test3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test2</title>
-      <link>https://djfan-me.github.io/posts/test2/</link>
+      <link>https://djfan.me/posts/test2/</link>
       <pubDate>Sat, 11 Jul 2020 13:42:30 -0400</pubDate>
       
-      <guid>https://djfan-me.github.io/posts/test2/</guid>
+      <guid>https://djfan.me/posts/test2/</guid>
       <description>ssasdasd</description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://djfan-me.github.io/posts/test/</link>
+      <link>https://djfan.me/posts/test/</link>
       <pubDate>Sun, 05 Jul 2020 17:19:01 -0400</pubDate>
       
-      <guid>https://djfan-me.github.io/posts/test/</guid>
+      <guid>https://djfan.me/posts/test/</guid>
       <description>headline 3 asdasd
 headline2 </description>
     </item>
     
     <item>
       <title>Post</title>
-      <link>https://djfan-me.github.io/posts/</link>
+      <link>https://djfan.me/posts/</link>
       <pubDate>Sun, 05 Jul 2020 17:15:15 -0400</pubDate>
       
-      <guid>https://djfan-me.github.io/posts/</guid>
+      <guid>https://djfan.me/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://djfan-me.github.io/about/</link>
+      <link>https://djfan.me/about/</link>
       <pubDate>Sun, 05 Jul 2020 17:12:44 -0400</pubDate>
       
-      <guid>https://djfan-me.github.io/about/</guid>
+      <guid>https://djfan.me/about/</guid>
       <description>qw wwwwwww
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
