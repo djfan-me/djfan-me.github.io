@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Archiv 檔案</title>
-		<link>http://djfan-me.github.io/posts/</link>
+		<link>https://www.djfan.me/posts/</link>
 		<description>Recent content in Posts on Archiv 檔案</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
 		<lastBuildDate>Sat, 11 Jul 2020 14:26:11 -0400</lastBuildDate>
-		<atom:link href="http://djfan-me.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://www.djfan.me/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Test4</title>
-			<link>http://djfan-me.github.io/posts/test4/</link>
+			<link>https://www.djfan.me/posts/test4/</link>
 			<pubDate>Sat, 11 Jul 2020 14:26:11 -0400</pubDate>
 			
-			<guid>http://djfan-me.github.io/posts/test4/</guid>
+			<guid>https://www.djfan.me/posts/test4/</guid>
 			<description>sssss</description>
 			<content type="html"><![CDATA[<p>sssss</p>
 ]]></content>
@@ -22,20 +22,20 @@
 		
 		<item>
 			<title>Test3</title>
-			<link>http://djfan-me.github.io/posts/test3/</link>
+			<link>https://www.djfan.me/posts/test3/</link>
 			<pubDate>Sat, 11 Jul 2020 13:49:05 -0400</pubDate>
 			
-			<guid>http://djfan-me.github.io/posts/test3/</guid>
+			<guid>https://www.djfan.me/posts/test3/</guid>
 			<description></description>
 			<content type="html"><![CDATA[]]></content>
 		</item>
 		
 		<item>
 			<title>Test2</title>
-			<link>http://djfan-me.github.io/posts/test2/</link>
+			<link>https://www.djfan.me/posts/test2/</link>
 			<pubDate>Sat, 11 Jul 2020 13:42:30 -0400</pubDate>
 			
-			<guid>http://djfan-me.github.io/posts/test2/</guid>
+			<guid>https://www.djfan.me/posts/test2/</guid>
 			<description>ssasdasd</description>
 			<content type="html"><![CDATA[<p>ssasdasd</p>
 ]]></content>
@@ -43,10 +43,10 @@
 		
 		<item>
 			<title>Test</title>
-			<link>http://djfan-me.github.io/posts/test/</link>
+			<link>https://www.djfan.me/posts/test/</link>
 			<pubDate>Sun, 05 Jul 2020 17:19:01 -0400</pubDate>
 			
-			<guid>http://djfan-me.github.io/posts/test/</guid>
+			<guid>https://www.djfan.me/posts/test/</guid>
 			<description>headline 3 asdasd
 headline2 </description>
 			<content type="html"><![CDATA[<h1 id="headline-3">headline 3</h1>
