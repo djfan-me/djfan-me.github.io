@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Archiv 檔案</title>
-    <link>https://www.djfan.me/tags/</link>
+    <link>https://djfan.me/tags/</link>
     <description>Recent content in Tags on Archiv 檔案</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sat, 11 Jul 2020 14:26:11 -0400</lastBuildDate>
     
-	<atom:link href="https://www.djfan.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://djfan.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>aswwww</title>
-      <link>https://www.djfan.me/tags/aswwww/</link>
+      <link>https://djfan.me/tags/aswwww/</link>
       <pubDate>Sat, 11 Jul 2020 14:26:11 -0400</pubDate>
       
-      <guid>https://www.djfan.me/tags/aswwww/</guid>
+      <guid>https://djfan.me/tags/aswwww/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sss</title>
-      <link>https://www.djfan.me/tags/sss/</link>
+      <link>https://djfan.me/tags/sss/</link>
       <pubDate>Sat, 11 Jul 2020 13:49:05 -0400</pubDate>
       
-      <guid>https://www.djfan.me/tags/sss/</guid>
+      <guid>https://djfan.me/tags/sss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Films</title>
-      <link>https://www.djfan.me/tags/films/</link>
+      <link>https://djfan.me/tags/films/</link>
       <pubDate>Sun, 05 Jul 2020 17:19:01 -0400</pubDate>
       
-      <guid>https://www.djfan.me/tags/films/</guid>
+      <guid>https://djfan.me/tags/films/</guid>
       <description></description>
     </item>
     
