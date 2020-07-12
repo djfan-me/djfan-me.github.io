@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>aswwww on Archiv 檔案</title>
-    <link>https://djfan-me.github.io/tags/aswwww/</link>
+    <link>http://djfan-me.github.io/tags/aswwww/</link>
     <description>Recent content in aswwww on Archiv 檔案</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sat, 11 Jul 2020 14:26:11 -0400</lastBuildDate>
     
-	<atom:link href="https://djfan-me.github.io/tags/aswwww/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://djfan-me.github.io/tags/aswwww/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test4</title>
-      <link>https://djfan-me.github.io/posts/test4/</link>
+      <link>http://djfan-me.github.io/posts/test4/</link>
       <pubDate>Sat, 11 Jul 2020 14:26:11 -0400</pubDate>
       
-      <guid>https://djfan-me.github.io/posts/test4/</guid>
+      <guid>http://djfan-me.github.io/posts/test4/</guid>
       <description>sssss</description>
     </item>
     
