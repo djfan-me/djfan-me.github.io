@@ -1,57 +1,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Posts on Archiv 檔案</title>
+		<title>Posts on Archiv</title>
 		<link>https://djfan.me/posts/</link>
-		<description>Recent content in Posts on Archiv 檔案</description>
+		<description>Recent content in Posts on Archiv</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 11 Jul 2020 14:26:11 -0400</lastBuildDate>
+		<lastBuildDate>Sat, 11 Jul 2020 13:42:30 -0400</lastBuildDate>
 		<atom:link href="https://djfan.me/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>Test4</title>
-			<link>https://djfan.me/posts/test4/</link>
-			<pubDate>Sat, 11 Jul 2020 14:26:11 -0400</pubDate>
-			
-			<guid>https://djfan.me/posts/test4/</guid>
-			<description>sssss</description>
-			<content type="html"><![CDATA[<p>sssss</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Test3</title>
-			<link>https://djfan.me/posts/test3/</link>
-			<pubDate>Sat, 11 Jul 2020 13:49:05 -0400</pubDate>
-			
-			<guid>https://djfan.me/posts/test3/</guid>
-			<description></description>
-			<content type="html"><![CDATA[]]></content>
-		</item>
-		
-		<item>
 			<title>Test2</title>
-			<link>https://djfan.me/posts/test2/</link>
+			<link>https://djfan.me/posts/placeholder/</link>
 			<pubDate>Sat, 11 Jul 2020 13:42:30 -0400</pubDate>
 			
-			<guid>https://djfan.me/posts/test2/</guid>
-			<description>ssasdasd</description>
+			<guid>https://djfan.me/posts/placeholder/</guid>
+			<description>ssasdasd
+h1 sdxsdsd
+h2 sdxsdsd s
+s
+s s
+s s s
+h22 </description>
 			<content type="html"><![CDATA[<p>ssasdasd</p>
+<h1 id="h1">h1</h1>
+<p>sdxsdsd</p>
+<h2 id="h2">h2</h2>
+<p>sdxsdsd
+s</p>
+<p>s</p>
+<p>s
+s</p>
+<p>s
+s
+s</p>
+<h2 id="h22">h22</h2>
 ]]></content>
 		</item>
 		
 		<item>
-			<title>Test</title>
-			<link>https://djfan.me/posts/test/</link>
+			<title>Hugo Hermit Migration</title>
+			<link>https://djfan.me/posts/202007/hugo-hermit-migration/</link>
 			<pubDate>Sun, 05 Jul 2020 17:19:01 -0400</pubDate>
 			
-			<guid>https://djfan.me/posts/test/</guid>
-			<description>headline 3 asdasd
-headline2 </description>
-			<content type="html"><![CDATA[<h1 id="headline-3">headline 3</h1>
-<p>asdasd</p>
-<h2 id="headline2">headline2</h2>
+			<guid>https://djfan.me/posts/202007/hugo-hermit-migration/</guid>
+			<description>I&amp;rsquo;ve been using Hugo for a while. Previously, I was using a Hugo theme called personal-web. Recently found a neat and tidy, minimalism template Hermit, which more or less motivates me to be more diligent to write &amp;amp; share stuff, anything, either serious or random topics.
+side story as a New Year resolution I made N (&amp;lt;3) years ago, I&amp;rsquo;ve been trying to keep the digital life as simple and organized as possible, which was inspired by this summary by NickTalk.</description>
+			<content type="html"><![CDATA[<p>I&rsquo;ve been using <a href="https://gohugo.io">Hugo</a> for a while. Previously, I was using a Hugo theme called <a href="https://github.com/bjacquemet/personal-web">personal-web</a>. Recently found a neat and tidy, minimalism template <a href="https://github.com/Track3/hermit">Hermit</a>, which more or less motivates me to be more diligent to write &amp; share stuff, anything, either serious or random topics.</p>
+<p><img src="https://raw.githubusercontent.com/Track3/hermit/master/images/screenshot.png" alt="">
+<img src="https://raw.githubusercontent.com/Track3/hermit/master/images/hermit.png" alt=""></p>
+<p><code>side story</code> <em>as a New Year resolution I made N (&lt;3) years ago, I&rsquo;ve been trying to keep the digital life as simple and organized as possible, which was inspired by this <a href="https://www.nicktalk.com/talk/2017/3/5">summary</a> by <a href="https://www.nicktalk.com/">NickTalk</a>. Hope building archiv could help me achieve the goal.</em></p>
+<hr>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 1</span>
+hugo new site archiv
+<span class="nb">cd</span> archiv
+
+<span class="c1"># initialize git and add a remote</span>
+git init
+git remote add origin git@git.com:&lt;username&gt;/&lt;repository-1&gt;.git
+<span class="c1"># make some changes, commit and push.</span>
+
+
+<span class="c1"># Add theme hermit as a submodule</span>
+git submodule add https://github.com/Track3/hermit.git themes/hermit
+
+<span class="c1"># Local test</span>
+hugo server --disableFastRender -D
+
+<span class="c1"># Modify Params in config.toml</span>
+emacs -nw config.toml
+</code></pre></div><hr>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 2</span>
+hugo new about.md
+hugo new posts/Hugo Hermit Migration.md
+hugo new posts/202007/Hugo Hermit Migration.md
+</code></pre></div><hr>
+<p>Normally, we need two repositories:</p>
+<ul>
+<li><code>repository-1</code> is for saving all Hugo stuff we&rsquo;ve edited in this folder;</li>
+<li><code>repository-2</code> is for hosting the website (contents in <code>\public</code>).
+<ul>
+<li>In this case, <code>&lt;username&gt;/&lt;username&gt;.github.io</code></li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 3</span>
+git submodule add -b master git@git.com:&lt;username&gt;/&lt;repository-2&gt;.git public
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text"># check the .gitmodules
+
+[submodule &#34;themes/hermit&#34;]
+	path = themes/hermit
+	url = https://github.com/Track3/hermit.git
+[submodule &#34;public&#34;]
+	path = public
+	url = git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git
+	branch = master
+</code></pre></div><p><code>side notes</code></p>
+<ul>
+<li><em>Be careful the 2FA settiing of your Github account</em></li>
+<li><em>Keep baseURL as &quot;&rdquo; (empty string) for now</em></li>
+</ul>
+<hr>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 4</span>
+hugo -t hermit --baseURL<span class="o">=</span><span class="s1">&#39;https://djfan.me/&#39;</span>
+<span class="nb">cd</span> public
+git add .
+git commit -m <span class="s1">&#39;init public&#39;</span>
+git push origin master
+</code></pre></div><p>Now go to setting page of <code>&lt;username&gt;/&lt;username&gt;.github.io</code> repository. And activate Github Page (<code>master</code> branch option). Checkpoint! Make sure <code>&lt;username&gt;.github.io</code> works before proceeding to the next step.</p>
+<hr>
+<p>I&rsquo;ve purchased a domain <code>djfan.me</code> through <a href="https://www.godaddy.com/">GoDaddy</a>. Now go to the <code>Manage DNS</code> page and add all four  Type A (alias) items. In addition, add CNAME.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># step 5</span>
+Type: CNAME
+Name: www
+Value: &lt;username&gt;.github.io
+TTL: <span class="m">1</span> Hour
+</code></pre></div><p><img src="/202007/manage-DNS.png" alt=""></p>
+<p>Then, go back to setting page in Github. And add your purchased domain to <code>Custom domain</code> section. It will automatically generate CNAME file in your repository. Make sure sync with your local folder unless you are a fan of <code>git merge</code>.</p>
+<p>Now have a cup of tea 🍵 and <a href="https://djfan.me">djfan.me</a> is born.</p>
+<hr>
+<p>Waiiit a minute. Bug! Error! I&rsquo;ve been there before. Two notes:</p>
+<ul>
+<li>Met a CORE-related error? Click one of the posts, then ignore the browser warning and proceed : 🍵</li>
+<li>References &amp; Examples are really helpful and inspiring:
+<ul>
+<li><strong>[Hugo and GitHub Pages Tutorial]</strong>: <a href="https://azleslie.com/projects/hugo-tutorial/">https://azleslie.com/projects/hugo-tutorial/</a></li>
+<li><strong>[GoDaddy Domain with GitHub Pages]</strong>:
+<a href="https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef">https://medium.com/@JinnaBalu/godaddy-domain-with-github-pages-62aed906d4ef</a></li>
+<li><strong>[Example - Multiple <code>\posts</code>-like sub-directories]</strong>: <a href="https://beck24.be/">https://beck24.be/</a></li>
+<li><strong>[Light/Dark Mode Switch]</strong>: <a href="https://github.com/Track3/hermit/issues/99#issuecomment-646126134">https://github.com/Track3/hermit/issues/99#issuecomment-646126134</a></li>
+<li><strong>[Example - Light/Dark Mode Switch]</strong>: <a href="https://playhing.github.io/posts/">https://playhing.github.io/posts/</a></li>
+</ul>
+</li>
+</ul>
 ]]></content>
 		</item>
 		

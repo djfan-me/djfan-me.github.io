@@ -1,41 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Archiv 檔案</title>
+    <title>Tags on Archiv</title>
     <link>https://djfan.me/tags/</link>
-    <description>Recent content in Tags on Archiv 檔案</description>
+    <description>Recent content in Tags on Archiv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 11 Jul 2020 14:26:11 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 17:19:01 -0400</lastBuildDate>
     
 	<atom:link href="https://djfan.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>aswwww</title>
-      <link>https://djfan.me/tags/aswwww/</link>
-      <pubDate>Sat, 11 Jul 2020 14:26:11 -0400</pubDate>
-      
-      <guid>https://djfan.me/tags/aswwww/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sss</title>
-      <link>https://djfan.me/tags/sss/</link>
-      <pubDate>Sat, 11 Jul 2020 13:49:05 -0400</pubDate>
-      
-      <guid>https://djfan.me/tags/sss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Films</title>
-      <link>https://djfan.me/tags/films/</link>
+      <title>hugo</title>
+      <link>https://djfan.me/tags/hugo/</link>
       <pubDate>Sun, 05 Jul 2020 17:19:01 -0400</pubDate>
       
-      <guid>https://djfan.me/tags/films/</guid>
+      <guid>https://djfan.me/tags/hugo/</guid>
       <description></description>
     </item>
     

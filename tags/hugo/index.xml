@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archiv</title>
-    <link>https://djfan.me/</link>
-    <description>Recent content on Archiv</description>
+    <title>hugo on Archiv</title>
+    <link>https://djfan.me/tags/hugo/</link>
+    <description>Recent content in hugo on Archiv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 11 Jul 2020 13:42:30 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 17:19:01 -0400</lastBuildDate>
     
-	<atom:link href="https://djfan.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://djfan.me/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Test2</title>
-      <link>https://djfan.me/posts/placeholder/</link>
-      <pubDate>Sat, 11 Jul 2020 13:42:30 -0400</pubDate>
-      
-      <guid>https://djfan.me/posts/placeholder/</guid>
-      <description>ssasdasd
-h1 sdxsdsd
-h2 sdxsdsd s
-s
-s s
-s s s
-h22 </description>
-    </item>
     
     <item>
       <title>Hugo Hermit Migration</title>
@@ -35,24 +20,6 @@ h22 </description>
       <guid>https://djfan.me/posts/202007/hugo-hermit-migration/</guid>
       <description>I&amp;rsquo;ve been using Hugo for a while. Previously, I was using a Hugo theme called personal-web. Recently found a neat and tidy, minimalism template Hermit, which more or less motivates me to be more diligent to write &amp;amp; share stuff, anything, either serious or random topics.
 side story as a New Year resolution I made N (&amp;lt;3) years ago, I&amp;rsquo;ve been trying to keep the digital life as simple and organized as possible, which was inspired by this summary by NickTalk.</description>
-    </item>
-    
-    <item>
-      <title>Post</title>
-      <link>https://djfan.me/posts/</link>
-      <pubDate>Sun, 05 Jul 2020 17:15:15 -0400</pubDate>
-      
-      <guid>https://djfan.me/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://djfan.me/about/</link>
-      <pubDate>Sun, 05 Jul 2020 17:12:44 -0400</pubDate>
-      
-      <guid>https://djfan.me/about/</guid>
-      <description> </description>
     </item>
     
   </channel>
