@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://djfan.me/</loc>
+    <lastmod>2020-12-13T14:48:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://djfan.me/posts/202012/how-do-i-fit-in/</loc>
+    <lastmod>2020-12-13T14:48:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://djfan.me/posts/</loc>
+    <lastmod>2020-12-13T14:48:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://djfan.me/tags/</loc>
+    <lastmod>2020-12-13T14:48:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://djfan.me/tags/tech-business/</loc>
+    <lastmod>2020-12-13T14:48:21-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://djfan.me/shows/</loc>
     <lastmod>2020-08-23T17:28:04-04:00</lastmod>
   </url>
@@ -18,32 +43,12 @@
   </url>
   
   <url>
-    <loc>https://djfan.me/</loc>
-    <lastmod>2020-07-11T13:42:30-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://djfan.me/posts/</loc>
-    <lastmod>2020-07-11T13:42:30-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://djfan.me/posts/placeholder/</loc>
-    <lastmod>2020-07-11T13:42:30-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://djfan.me/tags/hugo/</loc>
     <lastmod>2020-07-05T17:19:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://djfan.me/posts/202007/hugo-hermit-migration/</loc>
-    <lastmod>2020-07-05T17:19:01-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://djfan.me/tags/</loc>
     <lastmod>2020-07-05T17:19:01-04:00</lastmod>
   </url>
   

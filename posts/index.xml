@@ -6,35 +6,26 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 11 Jul 2020 13:42:30 -0400</lastBuildDate>
+		<lastBuildDate>Sun, 13 Dec 2020 14:48:21 -0500</lastBuildDate>
 		<atom:link href="https://djfan.me/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>Test2</title>
-			<link>https://djfan.me/posts/placeholder/</link>
-			<pubDate>Sat, 11 Jul 2020 13:42:30 -0400</pubDate>
+			<title>How Do I Fit In?</title>
+			<link>https://djfan.me/posts/202012/how-do-i-fit-in/</link>
+			<pubDate>Sun, 13 Dec 2020 14:48:21 -0500</pubDate>
 			
-			<guid>https://djfan.me/posts/placeholder/</guid>
-			<description>ssasdasd
-h1 sdxsdsd
-h2 sdxsdsd s
-s
-s s
-s s s
-h22 </description>
-			<content type="html"><![CDATA[<p>ssasdasd</p>
-<h1 id="h1">h1</h1>
-<p>sdxsdsd</p>
-<h2 id="h2">h2</h2>
-<p>sdxsdsd
-s</p>
-<p>s</p>
-<p>s
-s</p>
-<p>s
-s
-s</p>
-<h2 id="h22">h22</h2>
+			<guid>https://djfan.me/posts/202012/how-do-i-fit-in/</guid>
+			<description>The specific tech (or AI if you may say) innovation Tiktok or Bytedance has is the combination of recommendation (customer side) and image/video tagging (content side). In addition, another key component leading to Tiktok phenomenon is the growth hacking team. KuaiShou, the main competitor of Douyin which is the Chinese version Tiktok, is more like a social media platform. Its users are more from the 3rd of 4th or even lower-tier cities, even from rural areas.</description>
+			<content type="html"><![CDATA[<!-- raw HTML omitted -->
+<ol>
+<li>The specific tech (or AI if you may say) innovation Tiktok or Bytedance has is the combination of recommendation (customer side) and image/video tagging (content side). In addition, another key component leading to Tiktok phenomenon is the growth hacking team.</li>
+<li>KuaiShou, the main competitor of Douyin which is the Chinese version Tiktok, is more like a social media platform. Its users are more from the 3rd of 4th or even lower-tier cities, even from rural areas. And the traffic among users is more concentrated in local community and close friend circle.</li>
+<li>The attraction of live stream shopping? seems only discount items and promotion for now.</li>
+<li>The tech-savvy and capable entrepreneurs e.g. Meituan Wang Xing have been emerging, gaining more attention and acknowledged by the tech peers and investors. I was wondering when this generation of Chinese entrepreneurs become older. how do they shape and impact the next generation of Chinese ambitious youth? Like those well-known Japanese entrepreneurs, their point of view, the way they think and run a company in a long term competition.</li>
+<li>Why Super Apps exist? customer acquisition is hard and expensive now. To add a new service inside current popular Apps looks a reasonable way. However, there&rsquo;s a different user experience between US and Chinese markets. In Chine, users are more likely to accept Super App.</li>
+<li>The success of Tiktok, is one of its kind, or encouragement and inspiration of others?</li>
+<li>How do I (Retail + Data) fit in this wave?</li>
+</ol>
 ]]></content>
 		</item>
 		
@@ -98,7 +89,7 @@ git submodule add -b master git@git.com:&lt;username&gt;/&lt;repository-2&gt;.gi
 </code></pre></div><p><code>side notes</code></p>
 <ul>
 <li><em>Be careful the 2FA settiing of your Github account</em></li>
-<li><em>Keep baseURL as &quot;&rdquo; (empty string) for now</em></li>
+<li><em>Keep baseURL as &quot;&quot; (empty string) for now</em></li>
 </ul>
 <hr>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 4</span>

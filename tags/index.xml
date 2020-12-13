@@ -7,10 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 05 Jul 2020 17:19:01 -0400</lastBuildDate>
-    
-	<atom:link href="https://djfan.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 13 Dec 2020 14:48:21 -0500</lastBuildDate><atom:link href="https://djfan.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tech business</title>
+      <link>https://djfan.me/tags/tech-business/</link>
+      <pubDate>Sun, 13 Dec 2020 14:48:21 -0500</pubDate>
+      
+      <guid>https://djfan.me/tags/tech-business/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>
