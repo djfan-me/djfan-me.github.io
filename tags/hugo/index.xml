@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 05 Jul 2020 17:19:01 -0400</lastBuildDate><atom:link href="https://djfan.me/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Dec 2020 15:46:08 -0500</lastBuildDate><atom:link href="https://djfan.me/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embed Spotify Link in Hugo</title>
+      <link>https://djfan.me/posts/202012/embed-spotify-link-in-hugo/</link>
+      <pubDate>Sun, 13 Dec 2020 15:46:08 -0500</pubDate>
+      
+      <guid>https://djfan.me/posts/202012/embed-spotify-link-in-hugo/</guid>
+      <description>In my last post, need to find a quick fix to embed a spotify podcast link to a Hugo markdown file. I found this brilliant solution from Ana Ulin.
+Here we go!
+ </description>
+    </item>
+    
     <item>
       <title>Hugo Hermit Migration</title>
       <link>https://djfan.me/posts/202007/hugo-hermit-migration/</link>

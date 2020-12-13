@@ -6,8 +6,26 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sun, 13 Dec 2020 14:48:21 -0500</lastBuildDate>
+		<lastBuildDate>Sun, 13 Dec 2020 15:46:08 -0500</lastBuildDate>
 		<atom:link href="https://djfan.me/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Embed Spotify Link in Hugo</title>
+			<link>https://djfan.me/posts/202012/embed-spotify-link-in-hugo/</link>
+			<pubDate>Sun, 13 Dec 2020 15:46:08 -0500</pubDate>
+			
+			<guid>https://djfan.me/posts/202012/embed-spotify-link-in-hugo/</guid>
+			<description>In my last post, need to find a quick fix to embed a spotify podcast link to a Hugo markdown file. I found this brilliant solution from Ana Ulin.
+Here we go!
+ </description>
+			<content type="html"><![CDATA[<p>In my last post, need to find a quick fix to embed a spotify podcast link to a Hugo markdown file. I found this brilliant <a href="https://anaulin.org/blog/hugo-raw-html-shortcode/">solution</a> from Ana Ulin.</p>
+<p>Here we go!</p>
+
+
+<iframe src="https://open.spotify.com/embed/playlist/0J5Ia0TMTHQkBbexSe1ffS" width="600" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+]]></content>
+		</item>
 		
 		<item>
 			<title>How Do I Fit In?</title>
