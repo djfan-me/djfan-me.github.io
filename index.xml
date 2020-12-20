@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 13 Dec 2020 15:46:08 -0500</lastBuildDate><atom:link href="https://djfan.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 14:12:04 -0500</lastBuildDate><atom:link href="https://djfan.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Instinct</title>
+      <link>https://djfan.me/movies/basic-instinct/</link>
+      <pubDate>Sun, 20 Dec 2020 14:12:04 -0500</pubDate>
+      
+      <guid>https://djfan.me/movies/basic-instinct/</guid>
+      <description>(1992)
+Netflix
+https://www.imdb.com/title/tt0103772/
+ </description>
+    </item>
+    
     <item>
       <title>Embed Spotify Link in Hugo</title>
       <link>https://djfan.me/posts/202012/embed-spotify-link-in-hugo/</link>
