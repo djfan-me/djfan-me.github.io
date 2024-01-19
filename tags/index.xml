@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Archiv</title>
+    <title>Tags on djfan</title>
     <link>https://djfan.me/tags/</link>
-    <description>Recent content in Tags on Archiv</description>
+    <description>Recent content in Tags on djfan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 13 Dec 2020 15:46:08 -0500</lastBuildDate><atom:link href="https://djfan.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jan 2024 13:02:49 -0500</lastBuildDate>
+    <atom:link href="https://djfan.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo</title>
       <link>https://djfan.me/tags/hugo/</link>
-      <pubDate>Sun, 13 Dec 2020 15:46:08 -0500</pubDate>
-      
+      <pubDate>Fri, 19 Jan 2024 13:02:49 -0500</pubDate>
       <guid>https://djfan.me/tags/hugo/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>tech business</title>
-      <link>https://djfan.me/tags/tech-business/</link>
-      <pubDate>Sun, 13 Dec 2020 14:48:21 -0500</pubDate>
-      
-      <guid>https://djfan.me/tags/tech-business/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

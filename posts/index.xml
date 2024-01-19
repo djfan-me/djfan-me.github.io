@@ -1,13 +1,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Posts on Archiv</title>
+		<title>Posts on djfan</title>
 		<link>https://djfan.me/posts/</link>
-		<description>Recent content in Posts on Archiv</description>
+		<description>Recent content in Posts on djfan</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sun, 13 Dec 2020 15:46:08 -0500</lastBuildDate>
+		<lastBuildDate>Fri, 19 Jan 2024 13:02:49 -0500</lastBuildDate>
 		<atom:link href="https://djfan.me/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Back to Hugo in 2024</title>
+			<link>https://djfan.me/posts/202401/back-to-hugo-in-2024/</link>
+			<pubDate>Fri, 19 Jan 2024 13:02:49 -0500</pubDate>
+			
+			<guid>https://djfan.me/posts/202401/back-to-hugo-in-2024/</guid>
+			<description>1. Theme Hermit-V2
+Hermit-V2 is a minimal and fast theme for Hugo, built for bloggers who want a simple and focused website. This is a maintained fork of Hermit, which iterates over the original work to have a almost-stable experience with bug fixes and new features.
+# .gitmodules [submodule &amp;#34;themes/hermit-v2&amp;#34;] path = themes/hermit-v2 url = https://github.com/1bl4z3r/hermit-V2 branch = main Once it&amp;rsquo;s added, run
+git submodule init git submodule update or git submodule update --init Alternatively, run when git clone the djfan-me-blog repository</description>
+			<content type="html"><![CDATA[<h2 id="1-theme">1. Theme</h2>
+<p><a href="https://github.com/1bl4z3r/hermit-V2/tree/staging">Hermit-V2</a></p>
+<blockquote>
+<p>Hermit-V2 is a minimal and fast theme for Hugo, built for bloggers who want a simple and focused website. This is a maintained fork of Hermit, which iterates over the original work to have a almost-stable experience with bug fixes and new features.</p>
+</blockquote>
+<pre tabindex="0"><code># .gitmodules
+
+[submodule &#34;themes/hermit-v2&#34;]
+	path = themes/hermit-v2
+	url = https://github.com/1bl4z3r/hermit-V2
+	branch = main
+</code></pre><p>Once it&rsquo;s added, run</p>
+<pre tabindex="0"><code>git submodule init
+git submodule update
+
+or
+git submodule update --init
+</code></pre><p>Alternatively, run when git clone the <code>djfan-me-blog</code> repository</p>
+<pre tabindex="0"><code>git clone --recurse-submodules --remote-submodules &lt;repo-URL&gt;
+</code></pre><h2 id="2-error-assetsscss">2. Error: assets/scss</h2>
+<blockquote>
+<p>ERROR EXECUTE-AS-TEMPLATE: failed to transform &ldquo;scss/style.scss&rdquo; (text/x-scss): template: scss/style.scss:9:14: executing &ldquo;scss/style.scss&rdquo; at &lt;readDir &ldquo;assets/scss&rdquo;&gt;: error calling readDir: failed to read directory &ldquo;assets/scss&rdquo;: open &hellip;/assets/scss: no such file or directory</p>
+</blockquote>
+<p>Add empty folder <code>assets/scss</code> to repo1 (<code>djfan-me-blog</code>) repo to fix the error above.</p>
+<h2 id="3-title-footer-and-header">3. Title, Footer and Header</h2>
+<p>Change the title to <code>djfan</code>. And change the footer and header to fit the minimalism style</p>
+<h2 id="4-draft-future-and-expired-content">4. Draft, Future, and Expired Content</h2>
+<p><a href="https://gohugo.io/getting-started/usage/#draft-future-and-expired-content">https://gohugo.io/getting-started/usage/#draft-future-and-expired-content</a></p>
+<p>By default, Hugo will not publish content when:</p>
+<ul>
+<li>The <code>draft</code> value is true</li>
+<li>The date is in the future</li>
+<li>The publishDate is in the future</li>
+<li>The expiryDate is in the past</li>
+</ul>
+<p>run hugo or hugo server with command line flags:</p>
+<pre tabindex="0"><code>hugo --buildDrafts    # or -D
+hugo --buildExpired   # or -E
+hugo --buildFuture    # or -F
+</code></pre><h2 id="5-new-post-then-publish-it">5. New Post, then Publish it</h2>
+<p>First</p>
+<pre tabindex="0"><code>hugo new posts/{6-digit yearmonth}/{post name}.md
+</code></pre><p>Then, finish writing the post. Preview the post before changing the draft statue to <code>false</code>.</p>
+<p>Next</p>
+<pre tabindex="0"><code># publish -&gt; ./public folder is updated and overwritten
+hugo  
+
+# push the published contents to repo2
+# repo2: djfan-me/djfan-me.github.io
+cd public
+git add .
+git commit -m &#39;xxxx&#39;
+git push
+</code></pre><p>Next task is to automate this process using e.g. Github Action.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Embed Spotify Link in Hugo</title>
@@ -16,37 +83,13 @@
 			
 			<guid>https://djfan.me/posts/202012/embed-spotify-link-in-hugo/</guid>
 			<description>In my last post, need to find a quick fix to embed a spotify podcast link to a Hugo markdown file. I found this brilliant solution from Ana Ulin.
-Here we go!
- </description>
+Here we go!</description>
 			<content type="html"><![CDATA[<p>In my last post, need to find a quick fix to embed a spotify podcast link to a Hugo markdown file. I found this brilliant <a href="https://anaulin.org/blog/hugo-raw-html-shortcode/">solution</a> from Ana Ulin.</p>
 <p>Here we go!</p>
 
 
 <iframe src="https://open.spotify.com/embed/playlist/0J5Ia0TMTHQkBbexSe1ffS" width="600" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-]]></content>
-		</item>
-		
-		<item>
-			<title>FYI Podcast EP86: ByteDance, TikTok, and China’s Growing Influence in Global Tech with Matthew Brennan</title>
-			<link>https://djfan.me/posts/202012/fyi-podcast-ep86-bytedance-tiktok-and-chinas-growing-influence-in-global-tech-with-matthew-brennan/</link>
-			<pubDate>Sun, 13 Dec 2020 14:48:21 -0500</pubDate>
-			
-			<guid>https://djfan.me/posts/202012/fyi-podcast-ep86-bytedance-tiktok-and-chinas-growing-influence-in-global-tech-with-matthew-brennan/</guid>
-			<description>The specific tech (or AI if you may say) innovation Tiktok or Bytedance has is the combination of recommendation (customer side) and image/video tagging (content side). In addition, another key component leading to Tiktok phenomenon is the growth hacking team. KuaiShou, the main competitor of Douyin which is the Chinese version Tiktok, is more like a social media platform. Its users are more from the 3rd of 4th or even lower-tier cities, even from rural areas.</description>
-			<content type="html"><![CDATA[
-
-  <iframe src="https://open.spotify.com/embed-podcast/episode/4lB7MfGDy1pbxpugyBkqwa" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-<ol>
-<li>The specific tech (or AI if you may say) innovation Tiktok or Bytedance has is the combination of recommendation (customer side) and image/video tagging (content side). In addition, another key component leading to Tiktok phenomenon is the growth hacking team.</li>
-<li>KuaiShou, the main competitor of Douyin which is the Chinese version Tiktok, is more like a social media platform. Its users are more from the 3rd of 4th or even lower-tier cities, even from rural areas. And the traffic among users is more concentrated in local community and close friend circle.</li>
-<li>The attraction of live stream shopping? seems only discount items and promotion for now.</li>
-<li>The tech-savvy and capable entrepreneurs e.g. Meituan Wang Xing have been emerging, gaining more attention and acknowledged by the tech peers and investors. I was wondering when this generation of Chinese entrepreneurs become older. how do they shape and impact the next generation of Chinese ambitious youth? Like those well-known Japanese entrepreneurs, their point of view, the way they think and run a company in a long term competition.</li>
-<li>Why Super Apps exist? customer acquisition is hard and expensive now. To add a new service inside current popular Apps looks a reasonable way. However, there&rsquo;s a different user experience between US and Chinese markets. In Chine, users are more likely to accept Super App.</li>
-<li>The success of Tiktok, is one of its kind, or encouragement and inspiration of others?</li>
-<li>How do I (Retail + Data) fit in this wave?</li>
-</ol>
 ]]></content>
 		</item>
 		
@@ -63,30 +106,30 @@ side story as a New Year resolution I made N (&amp;lt;3) years ago, I&amp;rsquo;
 <img src="https://raw.githubusercontent.com/Track3/hermit/master/images/hermit.png" alt=""></p>
 <p><code>side story</code> <em>as a New Year resolution I made N (&lt;3) years ago, I&rsquo;ve been trying to keep the digital life as simple and organized as possible, which was inspired by this <a href="https://www.nicktalk.com/talk/2017/3/5">summary</a> by <a href="https://www.nicktalk.com/">NickTalk</a>. Hope building archiv could help me achieve the goal.</em></p>
 <hr>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 1</span>
-hugo new site archiv
-<span class="nb">cd</span> archiv
-
-<span class="c1"># initialize git and add a remote</span>
-git init
-git remote add origin git@git.com:&lt;username&gt;/&lt;repository-1&gt;.git
-<span class="c1"># make some changes, commit and push.</span>
-
-
-<span class="c1"># Add theme hermit as a submodule</span>
-git submodule add https://github.com/Track3/hermit.git themes/hermit
-
-<span class="c1"># Local test</span>
-hugo server --disableFastRender -D
-
-<span class="c1"># Modify Params in config.toml</span>
-emacs -nw config.toml
-</code></pre></div><hr>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 2</span>
-hugo new about.md
-hugo new posts/Hugo Hermit Migration.md
-hugo new posts/202007/Hugo Hermit Migration.md
-</code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Step 1</span>
+</span></span><span class="line"><span class="cl">hugo new site archiv
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> archiv
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># initialize git and add a remote</span>
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git remote add origin git@git.com:&lt;username&gt;/&lt;repository-1&gt;.git
+</span></span><span class="line"><span class="cl"><span class="c1"># make some changes, commit and push.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Add theme hermit as a submodule</span>
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/Track3/hermit.git themes/hermit
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Local test</span>
+</span></span><span class="line"><span class="cl">hugo server --disableFastRender -D
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Modify Params in config.toml</span>
+</span></span><span class="line"><span class="cl">emacs -nw config.toml
+</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Step 2</span>
+</span></span><span class="line"><span class="cl">hugo new about.md
+</span></span><span class="line"><span class="cl">hugo new posts/Hugo Hermit Migration.md
+</span></span><span class="line"><span class="cl">hugo new posts/202007/Hugo Hermit Migration.md
+</span></span></code></pre></div><hr>
 <p>Normally, we need two repositories:</p>
 <ul>
 <li><code>repository-1</code> is for saving all Hugo stuff we&rsquo;ve edited in this folder;</li>
@@ -96,38 +139,38 @@ hugo new posts/202007/Hugo Hermit Migration.md
 </ul>
 </li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 3</span>
-git submodule add -b master git@git.com:&lt;username&gt;/&lt;repository-2&gt;.git public
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text"># check the .gitmodules
-
-[submodule &#34;themes/hermit&#34;]
-	path = themes/hermit
-	url = https://github.com/Track3/hermit.git
-[submodule &#34;public&#34;]
-	path = public
-	url = git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git
-	branch = master
-</code></pre></div><p><code>side notes</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Step 3</span>
+</span></span><span class="line"><span class="cl">git submodule add -b master git@git.com:&lt;username&gt;/&lt;repository-2&gt;.git public
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># check the .gitmodules
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[submodule &#34;themes/hermit&#34;]
+</span></span><span class="line"><span class="cl">	path = themes/hermit
+</span></span><span class="line"><span class="cl">	url = https://github.com/Track3/hermit.git
+</span></span><span class="line"><span class="cl">[submodule &#34;public&#34;]
+</span></span><span class="line"><span class="cl">	path = public
+</span></span><span class="line"><span class="cl">	url = git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git
+</span></span><span class="line"><span class="cl">	branch = master
+</span></span></code></pre></div><p><code>side notes</code></p>
 <ul>
 <li><em>Be careful the 2FA settiing of your Github account</em></li>
 <li><em>Keep baseURL as &quot;&quot; (empty string) for now</em></li>
 </ul>
 <hr>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Step 4</span>
-hugo -t hermit --baseURL<span class="o">=</span><span class="s1">&#39;https://djfan.me/&#39;</span>
-<span class="nb">cd</span> public
-git add .
-git commit -m <span class="s1">&#39;init public&#39;</span>
-git push origin master
-</code></pre></div><p>Now go to setting page of <code>&lt;username&gt;/&lt;username&gt;.github.io</code> repository. And activate Github Page (<code>master</code> branch option). Checkpoint! Make sure <code>&lt;username&gt;.github.io</code> works before proceeding to the next step.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Step 4</span>
+</span></span><span class="line"><span class="cl">hugo -t hermit --baseURL<span class="o">=</span><span class="s1">&#39;https://djfan.me/&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s1">&#39;init public&#39;</span>
+</span></span><span class="line"><span class="cl">git push origin master
+</span></span></code></pre></div><p>Now go to setting page of <code>&lt;username&gt;/&lt;username&gt;.github.io</code> repository. And activate Github Page (<code>master</code> branch option). Checkpoint! Make sure <code>&lt;username&gt;.github.io</code> works before proceeding to the next step.</p>
 <hr>
 <p>I&rsquo;ve purchased a domain <code>djfan.me</code> through <a href="https://www.godaddy.com/">GoDaddy</a>. Now go to the <code>Manage DNS</code> page and add all four  Type A (alias) items. In addition, add CNAME.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># step 5</span>
-Type: CNAME
-Name: www
-Value: &lt;username&gt;.github.io
-TTL: <span class="m">1</span> Hour
-</code></pre></div><p><img src="/202007/manage-DNS.png" alt=""></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># step 5</span>
+</span></span><span class="line"><span class="cl">Type: CNAME
+</span></span><span class="line"><span class="cl">Name: www
+</span></span><span class="line"><span class="cl">Value: &lt;username&gt;.github.io
+</span></span><span class="line"><span class="cl">TTL: <span class="m">1</span> Hour
+</span></span></code></pre></div><p><img src="/202007/manage-DNS.png" alt=""></p>
 <p>Then, go back to setting page in Github. And add your purchased domain to <code>Custom domain</code> section. It will automatically generate CNAME file in your repository. Make sure sync with your local folder unless you are a fan of <code>git merge</code>.</p>
 <p>Now have a cup of tea 🍵 and <a href="https://djfan.me">djfan.me</a> is born.</p>
 <hr>

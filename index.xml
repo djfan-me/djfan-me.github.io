@@ -1,128 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archiv</title>
+    <title>djfan</title>
     <link>https://djfan.me/</link>
-    <description>Recent content on Archiv</description>
+    <description>Recent content on djfan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 17 Jan 2021 12:11:23 -0500</lastBuildDate><atom:link href="https://djfan.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jan 2024 13:02:49 -0500</lastBuildDate>
+    <atom:link href="https://djfan.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back to Hugo in 2024</title>
+      <link>https://djfan.me/posts/202401/back-to-hugo-in-2024/</link>
+      <pubDate>Fri, 19 Jan 2024 13:02:49 -0500</pubDate>
+      <guid>https://djfan.me/posts/202401/back-to-hugo-in-2024/</guid>
+      <description>1. Theme Hermit-V2&#xA;Hermit-V2 is a minimal and fast theme for Hugo, built for bloggers who want a simple and focused website. This is a maintained fork of Hermit, which iterates over the original work to have a almost-stable experience with bug fixes and new features.&#xA;# .gitmodules [submodule &amp;#34;themes/hermit-v2&amp;#34;] path = themes/hermit-v2 url = https://github.com/1bl4z3r/hermit-V2 branch = main Once it&amp;rsquo;s added, run&#xA;git submodule init git submodule update or git submodule update --init Alternatively, run when git clone the djfan-me-blog repository</description>
+    </item>
     <item>
       <title>Mad Max: Fury Road</title>
       <link>https://djfan.me/movies/mad-max-fury-road/</link>
       <pubDate>Sun, 17 Jan 2021 12:11:23 -0500</pubDate>
-      
       <guid>https://djfan.me/movies/mad-max-fury-road/</guid>
-      <description>(2015)
-HBO Max
-https://www.imdb.com/title/tt1392190/</description>
+      <description>(2015)&#xA;HBO Max&#xA;https://www.imdb.com/title/tt1392190/</description>
     </item>
-    
     <item>
       <title>Nomadland</title>
       <link>https://djfan.me/movies/nomadland/</link>
       <pubDate>Sat, 16 Jan 2021 11:57:25 -0500</pubDate>
-      
       <guid>https://djfan.me/movies/nomadland/</guid>
-      <description>(2020)
-Hulu &amp;amp; Searchlight Pictures
-https://www.imdb.com/title/tt9770150/
-https://www.searchlightpictures.com/nomadland/
-Director: Chloé Zhao
-Writers: Jessica Bruder (book), Chloé Zhao (screenplay by)
-Stars: Frances McDormand
-   Jack Kevorkian Sonnet 18: Shall I compare thee to a summer’s day?  (BY WILLIAM SHAKESPEARE) Shall I compare thee to a summer’s day? Thou art more lovely and more temperate: Rough winds do shake the darling buds of May, And summer’s lease hath all too short a date; Sometime too hot the eye of heaven shines, And often is his gold complexion dimm&#39;d; And every fair from fair sometime declines, By chance or nature’s changing course untrimm&#39;d; But thy eternal summer shall not fade, Nor lose possession of that fair thou ow’st; Nor shall death brag thou wander’st in his shade, When in eternal lines to time thou grow’st: So long as men can breathe or eyes can see, So long lives this, and this gives life to thee.</description>
+      <description>(2020)&#xA;Hulu &amp;amp; Searchlight Pictures&#xA;https://www.imdb.com/title/tt9770150/&#xA;https://www.searchlightpictures.com/nomadland/&#xA;Director: Chloé Zhao&#xA;Writers: Jessica Bruder (book), Chloé Zhao (screenplay by)&#xA;Stars: Frances McDormand&#xA;Jack Kevorkian Sonnet 18: Shall I compare thee to a summer’s day? (BY WILLIAM SHAKESPEARE) Shall I compare thee to a summer’s day? Thou art more lovely and more temperate: Rough winds do shake the darling buds of May, And summer’s lease hath all too short a date; Sometime too hot the eye of heaven shines, And often is his gold complexion dimm&amp;#39;d; And every fair from fair sometime declines, By chance or nature’s changing course untrimm&amp;#39;d; But thy eternal summer shall not fade, Nor lose possession of that fair thou ow’st; Nor shall death brag thou wander’st in his shade, When in eternal lines to time thou grow’st: So long as men can breathe or eyes can see, So long lives this, and this gives life to thee.</description>
     </item>
-    
     <item>
       <title>Movies</title>
       <link>https://djfan.me/movies/</link>
       <pubDate>Sun, 20 Dec 2020 14:35:54 -0500</pubDate>
-      
       <guid>https://djfan.me/movies/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Basic Instinct</title>
       <link>https://djfan.me/movies/basic-instinct/</link>
       <pubDate>Sun, 20 Dec 2020 14:12:04 -0500</pubDate>
-      
       <guid>https://djfan.me/movies/basic-instinct/</guid>
-      <description>(1992)
-Netflix
-https://www.imdb.com/title/tt0103772/
- </description>
+      <description>(1992)&#xA;Netflix&#xA;https://www.imdb.com/title/tt0103772/</description>
     </item>
-    
     <item>
       <title>Embed Spotify Link in Hugo</title>
       <link>https://djfan.me/posts/202012/embed-spotify-link-in-hugo/</link>
       <pubDate>Sun, 13 Dec 2020 15:46:08 -0500</pubDate>
-      
       <guid>https://djfan.me/posts/202012/embed-spotify-link-in-hugo/</guid>
-      <description>In my last post, need to find a quick fix to embed a spotify podcast link to a Hugo markdown file. I found this brilliant solution from Ana Ulin.
-Here we go!
- </description>
+      <description>In my last post, need to find a quick fix to embed a spotify podcast link to a Hugo markdown file. I found this brilliant solution from Ana Ulin.&#xA;Here we go!</description>
     </item>
-    
-    <item>
-      <title>FYI Podcast EP86: ByteDance, TikTok, and China’s Growing Influence in Global Tech with Matthew Brennan</title>
-      <link>https://djfan.me/posts/202012/fyi-podcast-ep86-bytedance-tiktok-and-chinas-growing-influence-in-global-tech-with-matthew-brennan/</link>
-      <pubDate>Sun, 13 Dec 2020 14:48:21 -0500</pubDate>
-      
-      <guid>https://djfan.me/posts/202012/fyi-podcast-ep86-bytedance-tiktok-and-chinas-growing-influence-in-global-tech-with-matthew-brennan/</guid>
-      <description>The specific tech (or AI if you may say) innovation Tiktok or Bytedance has is the combination of recommendation (customer side) and image/video tagging (content side). In addition, another key component leading to Tiktok phenomenon is the growth hacking team. KuaiShou, the main competitor of Douyin which is the Chinese version Tiktok, is more like a social media platform. Its users are more from the 3rd of 4th or even lower-tier cities, even from rural areas.</description>
-    </item>
-    
     <item>
       <title>Books</title>
       <link>https://djfan.me/books/</link>
       <pubDate>Sun, 23 Aug 2020 17:27:47 -0400</pubDate>
-      
       <guid>https://djfan.me/books/</guid>
       <description>20200823 - TBD Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values By Robert M. Pirsig 0-688-00230-7 20200823 - TBD 何为良好生活 By 陈嘉映 9787532156917</description>
     </item>
-    
     <item>
       <title>Read</title>
       <link>https://djfan.me/read/</link>
       <pubDate>Sun, 23 Aug 2020 16:15:15 -0400</pubDate>
-      
       <guid>https://djfan.me/read/</guid>
-      <description>20200808 Larry Summers on Trump’s ‘Tragic Precedent,’ TikTok and Regulation (The Information | By Jessica E. Lessin)
-20200810 I (still) believe the president, and in the president (The Washington Post | By George T. Conway III | Opinions)
- </description>
+      <description>20200808 Larry Summers on Trump’s ‘Tragic Precedent,’ TikTok and Regulation (The Information | By Jessica E. Lessin)&#xA;20200810 I (still) believe the president, and in the president (The Washington Post | By George T. Conway III | Opinions)</description>
     </item>
-    
     <item>
       <title>Hugo Hermit Migration</title>
       <link>https://djfan.me/posts/202007/hugo-hermit-migration/</link>
       <pubDate>Sun, 05 Jul 2020 17:19:01 -0400</pubDate>
-      
       <guid>https://djfan.me/posts/202007/hugo-hermit-migration/</guid>
-      <description>I&amp;rsquo;ve been using Hugo for a while. Previously, I was using a Hugo theme called personal-web. Recently found a neat and tidy, minimalism template Hermit, which more or less motivates me to be more diligent to write &amp;amp; share stuff, anything, either serious or random topics.
-side story as a New Year resolution I made N (&amp;lt;3) years ago, I&amp;rsquo;ve been trying to keep the digital life as simple and organized as possible, which was inspired by this summary by NickTalk.</description>
+      <description>I&amp;rsquo;ve been using Hugo for a while. Previously, I was using a Hugo theme called personal-web. Recently found a neat and tidy, minimalism template Hermit, which more or less motivates me to be more diligent to write &amp;amp; share stuff, anything, either serious or random topics.&#xA;side story as a New Year resolution I made N (&amp;lt;3) years ago, I&amp;rsquo;ve been trying to keep the digital life as simple and organized as possible, which was inspired by this summary by NickTalk.</description>
     </item>
-    
     <item>
       <title>Post</title>
       <link>https://djfan.me/posts/</link>
       <pubDate>Sun, 05 Jul 2020 17:15:15 -0400</pubDate>
-      
       <guid>https://djfan.me/posts/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://djfan.me/about/</link>
       <pubDate>Sun, 05 Jul 2020 17:12:44 -0400</pubDate>
-      
       <guid>https://djfan.me/about/</guid>
-      <description> </description>
+      <description></description>
     </item>
-    
   </channel>
 </rss>
