@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://djfan.me/posts/202401/espa%C3%B1ol-a1.1/</loc>
-    <lastmod>2024-01-28T16:29:52-05:00</lastmod>
+    <loc>https://djfan.me/posts/202402/spanish2/</loc>
+    <lastmod>2024-02-04T15:31:20-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/</loc>
-    <lastmod>2024-01-28T16:29:52-05:00</lastmod>
+    <lastmod>2024-02-04T15:31:20-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/tags/espa%C3%B1ol/</loc>
-    <lastmod>2024-01-28T16:29:52-05:00</lastmod>
+    <lastmod>2024-02-04T15:31:20-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/posts/</loc>
-    <lastmod>2024-01-28T16:29:52-05:00</lastmod>
+    <lastmod>2024-02-04T15:31:20-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/tags/</loc>
+    <lastmod>2024-02-04T15:31:20-05:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/posts/202401/spanish1/</loc>
     <lastmod>2024-01-28T16:29:52-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/posts/202401/back-to-hugo-in-2024/</loc>
