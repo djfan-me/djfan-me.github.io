@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>random on djfan</title>
-    <link>https://djfan.me/tags/random/</link>
-    <description>Recent content in random on djfan</description>
+    <title>lyrics on djfan</title>
+    <link>https://djfan.me/tags/lyrics/</link>
+    <description>Recent content in lyrics on djfan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Feb 2024 23:09:49 -0500</lastBuildDate>
-    <atom:link href="https://djfan.me/tags/random/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://djfan.me/tags/lyrics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>You are what you perceive</title>
       <link>https://djfan.me/posts/202402/you_are_what_you_perceive/</link>
       <pubDate>Thu, 15 Feb 2024 23:09:49 -0500</pubDate>
       <guid>https://djfan.me/posts/202402/you_are_what_you_perceive/</guid>
       <description>1. Oh, I do believe&#xA;You are what you perceive&#xA;What comes is better than what came before&#xA;Saw Dan Vineberg&amp;rsquo;s video. And he mentioned these lines when he walked around city of Cartagena.&#xA;2. I am not cool and I am not smart&#xA;And I can&amp;rsquo;t even parallel park&#xA;God, it&amp;rsquo;s brutal out here&#xA;3. You know my parents gonna be the death of us all&#xA;Two TV sets and two Cadillac cars</description>
-    </item>
-    <item>
-      <title>Like a Billionaire</title>
-      <link>https://djfan.me/posts/202402/billionaire/</link>
-      <pubDate>Sun, 11 Feb 2024 23:20:43 -0500</pubDate>
-      <guid>https://djfan.me/posts/202402/billionaire/</guid>
-      <description>E 84th St, 大冬天, 在Green Kitchen等外卖的Hispanic配送小哥, 打开手机, 坐在台阶上刷TEMU&#xA;Canal Street街边, 兜售盗版AirPods的小哥 &amp;ldquo;30刀30刀&amp;rdquo;, Tourist大妈A &amp;ldquo;No, I have TEMU&amp;rdquo;, 大妈大爷Tourist B Tourist C and Tourist D &amp;ldquo;嘿嘿嘿（银铃般的笑声)&amp;rdquo;&#xA;电视直播SuperBowl, ”本次比赛赞助商TEMU, Shop like a Billionaire“&#xA;家里, 买了100刀PDD, like a Billionaire</description>
     </item>
   </channel>
 </rss>
