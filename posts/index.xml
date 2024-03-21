@@ -112,8 +112,21 @@ aquí || este / esta / estos / estas / esto</description>
 <li>cierran</li>
 </ul>
 <ol start="14">
-<li>me gusta || me gustan</li>
+<li>
+<p>me gusta || me gustan</p>
+</li>
+<li>
+<p>llevar (to carry, to take, to bring, to wear)</p>
+</li>
 </ol>
+<ul>
+<li>llevo</li>
+<li>llevas</li>
+<li>lleva</li>
+<li>llevamos</li>
+<li>lleváis</li>
+<li>llevan</li>
+</ul>
 <hr>
 <ol start="15">
 <li>ropa y accesorios</li>
@@ -121,14 +134,49 @@ aquí || este / esta / estos / estas / esto</description>
 <ul>
 <li>ropa</li>
 <li>zapatos</li>
-<li>bolsos</li>
-<li>bolsa</li>
+<li>bolsos (包)</li>
+<li>bolsas（袋）</li>
 <li>productos de higiene</li>
 <li>artesanía (crafts)
 <ul>
 <li>en el mercado venden artesanía</li>
 </ul>
 </li>
+</ul>
+<ol start="16">
+<li></li>
+</ol>
+<ul>
+<li>una chaqueta</li>
+<li>una camiseta (t-shirt)</li>
+<li>una camisa (shirt)</li>
+<li>unos pantalones cortos (shorts)
+<ul>
+<li>corto (short, brief)</li>
+</ul>
+</li>
+<li>un bañador (swimsuit)</li>
+<li>una ropa interior (underwear)</li>
+<li>unas sandalias (sandal)</li>
+<li>una toalla de playa (beach towel)</li>
+<li>unas gafas de sol (sunglasses)</li>
+<li>medicamentos (medicine)</li>
+<li>un cargador de móvil (charger)</li>
+<li>el carné de identidad (ID card)
+<ul>
+<li>carné (license, card)</li>
+</ul>
+</li>
+<li>dinero</li>
+<li>una tarjeta de crédito
+<ul>
+<li>tarjeta (card)</li>
+</ul>
+</li>
+<li>un peine (comb)</li>
+<li>una pasta de dientes (toothpaste)</li>
+<li>crema solar (sunscreen)</li>
+<li>un cepillo de dientes</li>
 </ul>
 ]]></content>
 		</item>
