@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://djfan.me/posts/202404/spanish11/</loc>
-    <lastmod>2024-04-20T17:04:23-04:00</lastmod>
-  </url><url>
     <loc>https://djfan.me/</loc>
+    <lastmod>2024-04-20T21:59:05-04:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/movies/</loc>
+    <lastmod>2024-04-20T21:59:05-04:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/movies/sasquatch-sunset/</loc>
+    <lastmod>2024-04-20T21:59:05-04:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/posts/202404/spanish11/</loc>
     <lastmod>2024-04-20T17:04:23-04:00</lastmod>
   </url><url>
     <loc>https://djfan.me/tags/espa%C3%B1ol/</loc>
@@ -49,9 +55,6 @@
   </url><url>
     <loc>https://djfan.me/posts/202402/you_are_what_you_perceive/</loc>
     <lastmod>2024-02-15T23:09:49-05:00</lastmod>
-  </url><url>
-    <loc>https://djfan.me/movies/</loc>
-    <lastmod>2024-02-15T23:01:48-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/movies/touching-the-void/</loc>
     <lastmod>2024-02-15T23:01:48-05:00</lastmod>
