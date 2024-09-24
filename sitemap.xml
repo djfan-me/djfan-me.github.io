@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://djfan.me/posts/202409/2800and20/</loc>
+    <lastmod>2024-09-24T11:22:30-04:00</lastmod>
+  </url><url>
     <loc>https://djfan.me/</loc>
-    <lastmod>2024-09-08T10:36:43-04:00</lastmod>
+    <lastmod>2024-09-24T11:22:30-04:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/posts/</loc>
+    <lastmod>2024-09-24T11:22:30-04:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/tags/random/</loc>
+    <lastmod>2024-09-24T11:22:30-04:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/tags/</loc>
+    <lastmod>2024-09-24T11:22:30-04:00</lastmod>
   </url><url>
     <loc>https://djfan.me/movies/</loc>
     <lastmod>2024-09-08T10:36:43-04:00</lastmod>
@@ -18,12 +30,6 @@
     <lastmod>2024-09-06T16:14:22-04:00</lastmod>
   </url><url>
     <loc>https://djfan.me/tags/espa%C3%B1ol/</loc>
-    <lastmod>2024-09-06T16:14:22-04:00</lastmod>
-  </url><url>
-    <loc>https://djfan.me/posts/</loc>
-    <lastmod>2024-09-06T16:14:22-04:00</lastmod>
-  </url><url>
-    <loc>https://djfan.me/tags/</loc>
     <lastmod>2024-09-06T16:14:22-04:00</lastmod>
   </url><url>
     <loc>https://djfan.me/tags/2024-2025/</loc>
@@ -117,9 +123,6 @@
     <lastmod>2024-02-17T12:07:20-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/tags/lyrics/</loc>
-    <lastmod>2024-02-15T23:09:49-05:00</lastmod>
-  </url><url>
-    <loc>https://djfan.me/tags/random/</loc>
     <lastmod>2024-02-15T23:09:49-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/posts/202402/you_are_what_you_perceive/</loc>
