@@ -6,8 +6,15 @@
     <description>Recent content on djfan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2024 16:55:13 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 17 Feb 2025 15:49:39 -0500</lastBuildDate>
     <atom:link href="https://djfan.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Gracie Tracker!</title>
+      <link>https://djfan.me/posts/202502/gracie_tracker_intro/</link>
+      <pubDate>Mon, 17 Feb 2025 15:49:39 -0500</pubDate>
+      <guid>https://djfan.me/posts/202502/gracie_tracker_intro/</guid>
+      <description>[Web Application]&#xA;🇺🇸 Your Personal Martial Arts Training Companion&#xA;🇨🇳 您的个人武术训练伴侣&#xA;🇪🇸 Tu Compañero Personal de Entrenamiento en Artes Marciales&#xA;Table of Contents Overview | 概述 | Visión General System Architecture | 系统架构 | Arquitectura del Sistema Tech Stack | 技术栈 | Stack Tecnológico Core Features | 核心功能 | Características Principales Technique Progress Tracking | 技术进度追踪 | Seguimiento del Progreso Técnico Fitness Tracking | 健身追踪 | Seguimiento de Ejercicio Class Schedule Management | 课程安排管理 | Gestión de Horarios de Clase Note Taking System | 笔记系统 | Sistema de Toma de Notas User Interface Guide | 用户界面指南 | Guía de Interfaz de Usuario Navigation | 导航 | Navegación Key Screens | 主要界面 | Pantallas Principales Security Features | 安全功能 | Características de Seguridad Getting Started | 入门指南 | Comenzando Overview | 概述 | Visión General 🇺🇸 Gracie Tracker is a comprehensive web application designed to help martial arts practitioners, particularly those studying Gracie Jiu-Jitsu, track their training progress, manage workouts, and organize their learning journey.</description>
+    </item>
     <item>
       <title>The Motorcycle Diaries</title>
       <link>https://djfan.me/movies/the-motorcycle-diaries/</link>

@@ -5,8 +5,274 @@
 		<description>Recent content in Posts on djfan</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Mon, 21 Oct 2024 22:34:30 -0400</lastBuildDate>
+		<lastBuildDate>Mon, 17 Feb 2025 15:49:39 -0500</lastBuildDate>
 		<atom:link href="https://djfan.me/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Introducing Gracie Tracker!</title>
+			<link>https://djfan.me/posts/202502/gracie_tracker_intro/</link>
+			<pubDate>Mon, 17 Feb 2025 15:49:39 -0500</pubDate>
+			
+			<guid>https://djfan.me/posts/202502/gracie_tracker_intro/</guid>
+			<description>[Web Application]
+🇺🇸 Your Personal Martial Arts Training Companion
+🇨🇳 您的个人武术训练伴侣
+🇪🇸 Tu Compañero Personal de Entrenamiento en Artes Marciales
+Table of Contents Overview | 概述 | Visión General System Architecture | 系统架构 | Arquitectura del Sistema Tech Stack | 技术栈 | Stack Tecnológico Core Features | 核心功能 | Características Principales Technique Progress Tracking | 技术进度追踪 | Seguimiento del Progreso Técnico Fitness Tracking | 健身追踪 | Seguimiento de Ejercicio Class Schedule Management | 课程安排管理 | Gestión de Horarios de Clase Note Taking System | 笔记系统 | Sistema de Toma de Notas User Interface Guide | 用户界面指南 | Guía de Interfaz de Usuario Navigation | 导航 | Navegación Key Screens | 主要界面 | Pantallas Principales Security Features | 安全功能 | Características de Seguridad Getting Started | 入门指南 | Comenzando Overview | 概述 | Visión General 🇺🇸 Gracie Tracker is a comprehensive web application designed to help martial arts practitioners, particularly those studying Gracie Jiu-Jitsu, track their training progress, manage workouts, and organize their learning journey.</description>
+			<content type="html"><![CDATA[<h1 id="heading"></h1>
+<p>[<a href="https://optimisticaliens.com/">Web Application</a>]</p>
+<p>🇺🇸
+Your Personal Martial Arts Training Companion</p>
+<p>🇨🇳
+您的个人武术训练伴侣</p>
+<p>🇪🇸
+Tu Compañero Personal de Entrenamiento en Artes Marciales</p>
+<p><img src="/gracie_app/gracie_techniques.png" alt="gracie_techniques"></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#overview--%E6%A6%82%E8%BF%B0--visi%C3%B3n-general">Overview | 概述 | Visión General</a></li>
+<li><a href="#system-architecture--%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84--arquitectura-del-sistema">System Architecture | 系统架构 | Arquitectura del Sistema</a></li>
+<li><a href="#tech-stack--%E6%8A%80%E6%9C%AF%E6%A0%88--stack-tecnol%C3%B3gico">Tech Stack | 技术栈 | Stack Tecnológico</a></li>
+<li><a href="#core-features--%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD--caracter%C3%ADsticas-principales">Core Features | 核心功能 | Características Principales</a>
+<ul>
+<li><a href="#1-technique-progress-tracking--%E6%8A%80%E6%9C%AF%E8%BF%9B%E5%BA%A6%E8%BF%BD%E8%B8%AA--seguimiento-del-progreso-t%C3%A9cnico">Technique Progress Tracking | 技术进度追踪 | Seguimiento del Progreso Técnico</a></li>
+<li><a href="#2-fitness-tracking--%E5%81%A5%E8%BA%AB%E8%BF%BD%E8%B8%AA--seguimiento-de-ejercicio">Fitness Tracking | 健身追踪 | Seguimiento de Ejercicio</a></li>
+<li><a href="#3-class-schedule-management--%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92%E7%AE%A1%E7%90%86--gesti%C3%B3n-de-horarios-de-clase">Class Schedule Management | 课程安排管理 | Gestión de Horarios de Clase</a></li>
+<li><a href="#4-note-taking-system--%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F--sistema-de-toma-de-notas">Note Taking System | 笔记系统 | Sistema de Toma de Notas</a></li>
+</ul>
+</li>
+<li><a href="#user-interface-guide--%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E6%8C%87%E5%8D%97--gu%C3%ADa-de-interfaz-de-usuario">User Interface Guide | 用户界面指南 | Guía de Interfaz de Usuario</a>
+<ul>
+<li><a href="#navigation--%E5%AF%BC%E8%88%AA--navegaci%C3%B3n">Navigation | 导航 | Navegación</a></li>
+<li><a href="#key-screens--%E4%B8%BB%E8%A6%81%E7%95%8C%E9%9D%A2--pantallas-principales">Key Screens | 主要界面 | Pantallas Principales</a></li>
+</ul>
+</li>
+<li><a href="#security-features--%E5%AE%89%E5%85%A8%E5%8A%9F%E8%83%BD--caracter%C3%ADsticas-de-seguridad">Security Features | 安全功能 | Características de Seguridad</a></li>
+<li><a href="#getting-started--%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97--comenzando">Getting Started | 入门指南 | Comenzando</a></li>
+</ul>
+<h2 id="overview--概述--visión-general">Overview | 概述 | Visión General</h2>
+<p>🇺🇸
+Gracie Tracker is a comprehensive web application designed to help martial arts practitioners, particularly those studying Gracie Jiu-Jitsu, track their training progress, manage workouts, and organize their learning journey.</p>
+<p>🇨🇳
+Gracie Tracker 是一个综合性的网络应用程序，专为武术练习者（特别是学习 Gracie 柔术的人）设计，用于追踪训练进度、管理锻炼和组织学习历程。</p>
+<p>🇪🇸
+Gracie Tracker es una aplicación web integral diseñada para ayudar a los practicantes de artes marciales, particularmente a aquellos que estudian Jiu-Jitsu Gracie, a seguir su progreso de entrenamiento, gestionar entrenamientos y organizar su viaje de aprendizaje.</p>
+<h2 id="system-architecture--系统架构--arquitectura-del-sistema">System Architecture | 系统架构 | Arquitectura del Sistema</h2>
+<pre class="mermaid">graph TD
+A[Frontend - React] --&gt; B[Backend - Django]
+B --&gt; C[PostgreSQL Database]
+B --&gt; D[Authentication System]
+B --&gt; E[File Storage]
+A --&gt; F[Material UI Components]
+A --&gt; G[Redux State Management]
+</pre>
+
+<h2 id="tech-stack--技术栈--stack-tecnológico">Tech Stack | 技术栈 | Stack Tecnológico</h2>
+<ul>
+<li><strong>Frontend:</strong> React, Material-UI, Redux</li>
+<li><strong>Backend:</strong> Django, Django REST Framework</li>
+<li><strong>Database:</strong> PostgreSQL</li>
+<li><strong>Authentication:</strong> JWT Tokens</li>
+<li><strong>Deployment:</strong> Netlify (Frontend), PythonAnywhere (Backend)</li>
+</ul>
+<h2 id="core-features--核心功能--características-principales">Core Features | 核心功能 | Características Principales</h2>
+<h3 id="1-technique-progress-tracking--技术进度追踪--seguimiento-del-progreso-técnico">1. Technique Progress Tracking | 技术进度追踪 | Seguimiento del Progreso Técnico</h3>
+<p>🇺🇸</p>
+<ul>
+<li>Track completion of Gracie Combatives classes</li>
+<li>Record dates for each class attendance</li>
+<li>Monitor progress through belt requirements</li>
+<li>Add personal notes for techniques</li>
+<li>View comprehensive progress statistics</li>
+</ul>
+<p>🇨🇳</p>
+<ul>
+<li>追踪 Gracie Combatives 课程完成情况</li>
+<li>记录每节课的出勤日期</li>
+<li>监控段位要求的进度</li>
+<li>添加技术相关的个人笔记</li>
+<li>查看综合进度统计</li>
+</ul>
+<p>🇪🇸</p>
+<ul>
+<li>Seguimiento de clases de Gracie Combatives</li>
+<li>Registro de fechas de asistencia a cada clase</li>
+<li>Monitoreo del progreso a través de requisitos de cinturón</li>
+<li>Agregar notas personales para técnicas</li>
+<li>Ver estadísticas completas de progreso</li>
+</ul>
+<h3 id="2-fitness-tracking--健身追踪--seguimiento-de-ejercicio">2. Fitness Tracking | 健身追踪 | Seguimiento de Ejercicio</h3>
+<p>🇺🇸</p>
+<ul>
+<li>Create custom workout types</li>
+<li>Track daily workouts</li>
+<li>Color-coded calendar view</li>
+<li>Export training data (PDF/PNG)</li>
+<li>Default workout types included: BJJ, Boxing, Muay Thai, Running, Hiking</li>
+</ul>
+<p>🇨🇳</p>
+<ul>
+<li>创建自定义运动类型</li>
+<li>追踪每日锻炼</li>
+<li>颜色编码的日历视图</li>
+<li>导出训练数据（PDF/PNG）</li>
+<li>默认包含的运动类型：巴西柔术、拳击、泰拳、跑步、徒步</li>
+</ul>
+<p>🇪🇸</p>
+<ul>
+<li>Crear tipos de ejercicio personalizados</li>
+<li>Seguimiento de ejercicios diarios</li>
+<li>Vista de calendario codificada por colores</li>
+<li>Exportar datos de entrenamiento (PDF/PNG)</li>
+<li>Tipos de ejercicio predeterminados: BJJ, Boxeo, Muay Thai, Correr, Senderismo</li>
+</ul>
+<h3 id="3-class-schedule-management--课程安排管理--gestión-de-horarios-de-clase">3. Class Schedule Management | 课程安排管理 | Gestión de Horarios de Clase</h3>
+<p>🇺🇸</p>
+<ul>
+<li>View upcoming classes</li>
+<li>Sign up for classes</li>
+<li>Receive class reminders</li>
+<li>Sync with Google Calendar</li>
+<li>View class techniques</li>
+</ul>
+<p>🇨🇳</p>
+<ul>
+<li>查看即将开始的课程</li>
+<li>报名参加课程</li>
+<li>接收课程提醒</li>
+<li>与谷歌日历同步</li>
+<li>查看课程技术内容</li>
+</ul>
+<p>🇪🇸</p>
+<ul>
+<li>Ver próximas clases</li>
+<li>Inscribirse en clases</li>
+<li>Recibir recordatorios de clase</li>
+<li>Sincronizar con Google Calendar</li>
+<li>Ver técnicas de clase</li>
+</ul>
+<h3 id="4-note-taking-system--笔记系统--sistema-de-toma-de-notas">4. Note Taking System | 笔记系统 | Sistema de Toma de Notas</h3>
+<p>🇺🇸</p>
+<ul>
+<li>Rich text editor</li>
+<li>Technique-specific notes</li>
+<li>Share notes with training partners</li>
+<li>Search and filter notes</li>
+<li>Export notes functionality</li>
+</ul>
+<p>🇨🇳</p>
+<ul>
+<li>富文本编辑器</li>
+<li>技术专项笔记</li>
+<li>与训练伙伴分享笔记</li>
+<li>搜索和筛选笔记</li>
+<li>导出笔记功能</li>
+</ul>
+<p>🇪🇸</p>
+<ul>
+<li>Editor de texto enriquecido</li>
+<li>Notas específicas de técnica</li>
+<li>Compartir notas con compañeros</li>
+<li>Buscar y filtrar notas</li>
+<li>Funcionalidad de exportación de notas</li>
+</ul>
+<h2 id="user-interface-guide--用户界面指南--guía-de-interfaz-de-usuario">User Interface Guide | 用户界面指南 | Guía de Interfaz de Usuario</h2>
+<h3 id="navigation--导航--navegación">Navigation | 导航 | Navegación</h3>
+<pre class="mermaid">graph LR
+A[Home] --&gt; B[Technique Tracker]
+A --&gt; C[Fitness Tracker]
+A --&gt; D[Class Schedule]
+A --&gt; E[Notes]
+A --&gt; F[Profile]
+</pre>
+
+<h3 id="key-screens--主要界面--pantallas-principales">Key Screens | 主要界面 | Pantallas Principales</h3>
+<p><img src="/gracie_app/gracie_tecniques.png" alt=""></p>
+<p><img src="/gracie_app/gracie_schedule.png" alt=""></p>
+<p><img src="/gracie_app/gracie_forum.png" alt=""></p>
+<p><img src="/gracie_app/gracie_fitness.png" alt=""></p>
+<h2 id="security-features--安全功能--características-de-seguridad">Security Features | 安全功能 | Características de Seguridad</h2>
+<p>🇺🇸</p>
+<ul>
+<li>JWT token authentication</li>
+<li>Secure password storage</li>
+<li>Data encryption</li>
+<li>Regular backups</li>
+<li>Privacy controls</li>
+</ul>
+<p>🇨🇳</p>
+<ul>
+<li>JWT 令牌认证</li>
+<li>安全密码存储</li>
+<li>数据加密</li>
+<li>定期备份</li>
+<li>隐私控制</li>
+</ul>
+<p>🇪🇸</p>
+<ul>
+<li>Autenticación por token JWT</li>
+<li>Almacenamiento seguro de contraseñas</li>
+<li>Cifrado de datos</li>
+<li>Copias de seguridad regulares</li>
+<li>Controles de privacidad</li>
+</ul>
+<h2 id="getting-started--入门指南--comenzando">Getting Started | 入门指南 | Comenzando</h2>
+<p>🇺🇸</p>
+<ol>
+<li>Visit [website URL]</li>
+<li>Create an account</li>
+<li>Complete profile setup</li>
+<li>Start tracking your progress</li>
+</ol>
+<p>🇨🇳</p>
+<ol>
+<li>访问 [网站链接]</li>
+<li>创建账户</li>
+<li>完成个人资料设置</li>
+<li>开始追踪您的进度</li>
+</ol>
+<p>🇪🇸</p>
+<ol>
+<li>Visite [URL del sitio]</li>
+<li>Cree una cuenta</li>
+<li>Complete la configuración del perfil</li>
+<li>Comience a seguir su progreso</li>
+</ol>
+<h3 id="contact-information--联系信息--información-de-contacto">Contact Information | 联系信息 | Información de Contacto</h3>
+<ul>
+<li><strong>Email:</strong> <a href="mailto:df1676@nyu.edu">df1676@nyu.edu</a></li>
+</ul>
+<h2 id="future-development--未来发展--desarrollo-futuro">Future Development | 未来发展 | Desarrollo Futuro</h2>
+<p>🇺🇸</p>
+<ul>
+<li>Mobile application</li>
+<li>Video integration</li>
+<li>Advanced analytics</li>
+<li>Community features</li>
+<li>Competition tracking</li>
+</ul>
+<p>🇨🇳</p>
+<ul>
+<li>移动应用程序</li>
+<li>视频集成</li>
+<li>高级分析</li>
+<li>社区功能</li>
+<li>比赛追踪</li>
+</ul>
+<p>🇪🇸</p>
+<ul>
+<li>Aplicación móvil</li>
+<li>Integración de video</li>
+<li>Análisis avanzado</li>
+<li>Características de comunidad</li>
+<li>Seguimiento de competencias</li>
+</ul>
+<hr>
+<p>© 2024 Gracie Tracker. All rights reserved. | 版权所有 | Todos los derechos reservados</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Chinook</title>
