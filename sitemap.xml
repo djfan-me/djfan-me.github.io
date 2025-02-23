@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://djfan.me/</loc>
+    <lastmod>2025-02-23T11:40:20-05:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/posts/</loc>
+    <lastmod>2025-02-23T11:40:20-05:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/tags/random/</loc>
+    <lastmod>2025-02-23T11:40:20-05:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/posts/202502/support_vector_travel_machine/</loc>
+    <lastmod>2025-02-23T11:40:20-05:00</lastmod>
+  </url><url>
+    <loc>https://djfan.me/tags/</loc>
+    <lastmod>2025-02-23T11:40:20-05:00</lastmod>
+  </url><url>
     <loc>https://djfan.me/tags/app/</loc>
     <lastmod>2025-02-17T15:49:39-05:00</lastmod>
   </url><url>
-    <loc>https://djfan.me/</loc>
-    <lastmod>2025-02-17T15:49:39-05:00</lastmod>
-  </url><url>
     <loc>https://djfan.me/posts/202502/gracie_tracker_intro/</loc>
-    <lastmod>2025-02-17T15:49:39-05:00</lastmod>
-  </url><url>
-    <loc>https://djfan.me/posts/</loc>
-    <lastmod>2025-02-17T15:49:39-05:00</lastmod>
-  </url><url>
-    <loc>https://djfan.me/tags/</loc>
     <lastmod>2025-02-17T15:49:39-05:00</lastmod>
   </url><url>
     <loc>https://djfan.me/movies/</loc>
@@ -24,9 +30,6 @@
     <lastmod>2024-12-06T16:55:13-04:00</lastmod>
   </url><url>
     <loc>https://djfan.me/posts/202410/chinook/</loc>
-    <lastmod>2024-10-21T22:34:30-04:00</lastmod>
-  </url><url>
-    <loc>https://djfan.me/tags/random/</loc>
     <lastmod>2024-10-21T22:34:30-04:00</lastmod>
   </url><url>
     <loc>https://djfan.me/tags/optimistic-aliens/</loc>
